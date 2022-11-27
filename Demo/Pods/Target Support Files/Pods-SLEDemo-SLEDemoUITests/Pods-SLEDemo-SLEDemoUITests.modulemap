@@ -1,0 +1,6 @@
+framework module Pods_SLEDemo_SLEDemoUITests {
+  umbrella header "Pods-SLEDemo-SLEDemoUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

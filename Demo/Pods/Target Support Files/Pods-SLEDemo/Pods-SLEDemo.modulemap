@@ -1,0 +1,6 @@
+framework module Pods_SLEDemo {
+  umbrella header "Pods-SLEDemo-umbrella.h"
+
+  export *
+  module * { export * }
+}

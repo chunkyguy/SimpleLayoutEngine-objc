@@ -1,0 +1,6 @@
+framework module SimpleLayoutEngine {
+  umbrella header "SimpleLayoutEngine-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -17,7 +17,7 @@ Pod::Spec.new do |spec|
 
   spec.name         = "SimpleLayoutEngine"
   spec.version      = "0.0.1"
-  spec.summary      = "A simplistic layout engine for iOS."
+  spec.summary      = "A simplistic layout engine."
 
   # This description is used to generate tags and improve search results.
   #   * Think: What does it do? Why did you write it? What is the focus?
@@ -28,7 +28,7 @@ Pod::Spec.new do |spec|
   A simplistic layout engine for iOS
                    DESC
 
-  spec.homepage     = "https://github.com/chunkyguy/SimpleLayoutEngine"
+  spec.homepage     = "https://github.com/chunkyguy/SimpleLayoutEngine-objc"
   # spec.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
 
 
@@ -77,7 +77,7 @@ Pod::Spec.new do |spec|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  spec.source       = { :git => "https://github.com/chunkyguy/SimpleLayoutEngine.git", :tag => "#{spec.version}" }
+  spec.source       = { :git => "https://github.com/chunkyguy/SimpleLayoutEngine-objc.git", :tag => "#{spec.version}" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -88,7 +88,7 @@ Pod::Spec.new do |spec|
   #  Not including the public_header_files will make all headers public.
   #
 
-  spec.source_files  = "objc/SimpleLayoutEngine/SimpleLayoutEngine", "objc/SimpleLayoutEngine/SimpleLayoutEngine/**/*.{h,m}"
+  spec.source_files  = "SimpleLayoutEngine", "SimpleLayoutEngine/**/*.{h,m}"
   # spec.exclude_files = "Classes/Exclude"
 
   # spec.public_header_files = "Classes/**/*.h"

@@ -1,0 +1,1282 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0186F8FD3504ADA49FA504D1010B3FE4 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3280BB5E7B57C31D41117A74F76E9DF3 /* QuartzCore.framework */; };
+		01B0695B46025E96A710D5F9963A4FEB /* FBSnapshotTestCase.h in Headers */ = {isa = PBXBuildFile; fileRef = 5396E53D2A90A3622CE7C341098FC59C /* FBSnapshotTestCase.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1484AD6899A3168F7A6C8B63D7D7DBB7 /* Pods-SLEDemo-SLEDemoUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9FB243B9446554C55BAC38934001D745 /* Pods-SLEDemo-SLEDemoUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1666AE96F4FF0BE6D6854373EA9E4545 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E658F388F01C72599CA75537950B6095 /* XCTest.framework */; };
+		17EBBB150C646B62FF3FE1C98E0C0759 /* SLELayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 99896D3298B342118AF5982B6182F654 /* SLELayout.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		1B0B0A75D1F745C680DC61B2372A5D99 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57221B54D014471C3D3E1925EFC917C8 /* Foundation.framework */; };
+		21185F013F2A8FC8CC90A995E4FB4BB8 /* FBSnapshotTestController.h in Headers */ = {isa = PBXBuildFile; fileRef = 662F7BC4286C8E1674434B8BA72AC51B /* FBSnapshotTestController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		238AD8C0B3ACD51F5F633BBC9D5081BB /* FBSnapshotTestController.m in Sources */ = {isa = PBXBuildFile; fileRef = DA37BD4477957C09B3BD431E9927C092 /* FBSnapshotTestController.m */; };
+		34E7ED8C6595102EF0FF60D679783154 /* SLELayout.h in Headers */ = {isa = PBXBuildFile; fileRef = D7563F5A7025146723E84BDE2865E531 /* SLELayout.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		515DF0C30B71C5064B85B28735F0ADAF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57221B54D014471C3D3E1925EFC917C8 /* Foundation.framework */; };
+		5CEA827BCBBA57A172751FA8C842D0E1 /* SLEViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 7BB3E925D33D6414934485FDE4D9A960 /* SLEViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		644B5352D67692A0AB389027F1329357 /* Pods-SLEDemo-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 303CF0B8702D12DFBEAB369FD422E96C /* Pods-SLEDemo-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		65B93C0ECE58430A3F6A452FCE72C60F /* SLELayoutDirection.h in Headers */ = {isa = PBXBuildFile; fileRef = F6319031F87B25EC953C24CA1402251D /* SLELayoutDirection.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6AA48999D92571B6FA6A01127D57E606 /* SLEViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 69DFD9DABBF73602254345689BA40FCF /* SLEViewController.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		6CC87DA71D67A509FA9FD3D381F69CA2 /* SLELayoutItem+Internal.h in Headers */ = {isa = PBXBuildFile; fileRef = A0600580330166CD0D9EBB89168BB8F7 /* SLELayoutItem+Internal.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6DC239C5F98BEC072A48AF2F7C7EF5B2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DA24A38BA9EE106B59E3D4C8DD1CE0E /* UIKit.framework */; };
+		6EE6A81E7C13E3230D24133CD88345B2 /* UIImage+Snapshot.h in Headers */ = {isa = PBXBuildFile; fileRef = 4DBDF9C429D439E6A051A06DF40CC5B6 /* UIImage+Snapshot.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		77398719EA51C9C4CC2BD7EC5960C3B7 /* SLELayoutAlignment.h in Headers */ = {isa = PBXBuildFile; fileRef = 4EF1CA612BECBD61EB7DD75CD45A0AB2 /* SLELayoutAlignment.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		78193F2C84DE0D9A06AAED020511CF9C /* Pods-SLEDemo-SLEDemoUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B3AA76549F68C9B4C9648F667A10A96 /* Pods-SLEDemo-SLEDemoUITests-dummy.m */; };
+		821FEF7DC7F855123165FC0EBE94112D /* SLELayoutItem.h in Headers */ = {isa = PBXBuildFile; fileRef = 0C71C19DD241E2665A82F3789BABE479 /* SLELayoutItem.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8891FC3E2DF5C7B97D6F0CC15971A78F /* FBSnapshotTestCasePlatform.h in Headers */ = {isa = PBXBuildFile; fileRef = 5B7D2F3B01D60301CC13C09B4C30DECC /* FBSnapshotTestCasePlatform.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8E2AA19E5A7CE5CFCD5FB4DBB27A227A /* UIImage+Snapshot.m in Sources */ = {isa = PBXBuildFile; fileRef = 27D55D4DBF20BE9E74505EF17A56709C /* UIImage+Snapshot.m */; };
+		9B184114DDA3A0570BA96CAFB222CB2B /* SimpleLayoutEngine-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5686A932ACCC5FFB597FE6E025F39EDB /* SimpleLayoutEngine-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9DBBFC1590D749D4A2268C5F7512DF10 /* Pods-SLEDemoTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7122C904D69B61BAE69699615901298C /* Pods-SLEDemoTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A888BCFF70044D419A9CD54A2C172A37 /* UIImage+Diff.h in Headers */ = {isa = PBXBuildFile; fileRef = BEE44E72E3289A85B578CAA0F95F4453 /* UIImage+Diff.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		AF935AA0F1994E6387B6AAC868328EBB /* SLELayoutItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 74C336CFA558E6D7C84DCEEA825507BB /* SLELayoutItem.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		B151F56AB798593BD38C900FB7461706 /* Pods-SLEDemo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3481B301798C3D94A90BDD57F19C15EA /* Pods-SLEDemo-dummy.m */; };
+		B1F9BF9C6A38711D4ACCB8C3D31DF875 /* iOSSnapshotTestCase-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B52B5DAB410B67677228EFA2B66A335 /* iOSSnapshotTestCase-dummy.m */; };
+		B57D82E4A13ACA0E8D4E2CA2822D9AEA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57221B54D014471C3D3E1925EFC917C8 /* Foundation.framework */; };
+		B9B974A628D21498E09A84316A787C6F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57221B54D014471C3D3E1925EFC917C8 /* Foundation.framework */; };
+		BD93A25A5EFE29B624935D91E9332C89 /* FBSnapshotTestCase.m in Sources */ = {isa = PBXBuildFile; fileRef = 91A97F8F3454A51CC46B3DC35808826F /* FBSnapshotTestCase.m */; };
+		C01E9BF07769111A2218E9217773EF1A /* UIImage+Diff.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C26A624043D4751B3FA91E4C944EC43 /* UIImage+Diff.m */; };
+		D4FE8735B40210528F27625ED237F952 /* SwiftSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9560221D4BD362996A2C49C0ED4F91A6 /* SwiftSupport.swift */; };
+		D66279829DCA0FC5B4E9D4E04F903EA6 /* UIImage+Compare.h in Headers */ = {isa = PBXBuildFile; fileRef = 897E0F02EAD8A601347C257B34D4127F /* UIImage+Compare.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		DC904E3036ADBA138F3568F9CE3A5433 /* UIImage+Compare.m in Sources */ = {isa = PBXBuildFile; fileRef = B844C07AA43F021B02EC8E5601DADF68 /* UIImage+Compare.m */; };
+		DE64F699A45C33911EE8CF5BDC87F0FE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57221B54D014471C3D3E1925EFC917C8 /* Foundation.framework */; };
+		DFE92360AC3E68AD487EDDFD287B7430 /* iOSSnapshotTestCase-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9C4F6A9ECA07E3A9674F95C1738FC656 /* iOSSnapshotTestCase-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E27D4AF1F6CD414E4FBDB7A774808D6B /* SimpleLayoutEngine.h in Headers */ = {isa = PBXBuildFile; fileRef = C6A157559E22A6AE45AC051FA8490B86 /* SimpleLayoutEngine.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E785E52A7D6E2A1537CA53CC7B97CD44 /* Pods-SLEDemoTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 50CA90869AFCC0C8883320D79E50783B /* Pods-SLEDemoTests-dummy.m */; };
+		EF9F915A72AEDA5A01DF9E101CC32149 /* FBSnapshotTestCasePlatform.m in Sources */ = {isa = PBXBuildFile; fileRef = 08FCC9805366EFE1BEE96A16307D991C /* FBSnapshotTestCasePlatform.m */; };
+		F2FECDBEADB8B4E609442CCA177FD502 /* SimpleLayoutEngine-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 85825C0B52976AA6CE8831332072D76E /* SimpleLayoutEngine-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		29B1170E65607CE48D568FF8CA9011BB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 24343EFC2CA462787B413EDE484AB999;
+			remoteInfo = SimpleLayoutEngine;
+		};
+		7EA412819BC173AEFF119E851F2ADC6B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C393038B0BEF088C1B93E6528005862D;
+			remoteInfo = iOSSnapshotTestCase;
+		};
+		A1319FF6ABA04FA563EF4EC8516CA698 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 24343EFC2CA462787B413EDE484AB999;
+			remoteInfo = SimpleLayoutEngine;
+		};
+		DA8F55D565E5CAC67B0BD3586CCB6945 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 41C4B5580C421A04DF845450F17D58B6;
+			remoteInfo = "Pods-SLEDemo";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		014112D6DE13FFD29E9B8A1B42D83C66 /* iOSSnapshotTestCase.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = iOSSnapshotTestCase.debug.xcconfig; sourceTree = "<group>"; };
+		037BF1842DB14CE52E35B8CE96FB3055 /* Pods-SLEDemo.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SLEDemo.modulemap"; sourceTree = "<group>"; };
+		08FCC9805366EFE1BEE96A16307D991C /* FBSnapshotTestCasePlatform.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestCasePlatform.m; path = FBSnapshotTestCase/FBSnapshotTestCasePlatform.m; sourceTree = "<group>"; };
+		0AD2BE4F83529426A541C30630C7E669 /* Pods-SLEDemoTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SLEDemoTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		0C71C19DD241E2665A82F3789BABE479 /* SLELayoutItem.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SLELayoutItem.h; path = SimpleLayoutEngine/SLELayoutItem.h; sourceTree = "<group>"; };
+		1084A0F6CB81E136367CF6D82AD93D0A /* Pods-SLEDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SLEDemo.release.xcconfig"; sourceTree = "<group>"; };
+		12DA69C55BBA2E9DF4560AD31D2A0058 /* iOSSnapshotTestCase.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = iOSSnapshotTestCase.modulemap; sourceTree = "<group>"; };
+		14E15728D513B9CEF9A7799C276F659D /* Pods-SLEDemo-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SLEDemo-frameworks.sh"; sourceTree = "<group>"; };
+		1C26A624043D4751B3FA91E4C944EC43 /* UIImage+Diff.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Diff.m"; path = "FBSnapshotTestCase/Categories/UIImage+Diff.m"; sourceTree = "<group>"; };
+		1D9D6500CE6DDBB8ACE0996C243E76E2 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		1DA24A38BA9EE106B59E3D4C8DD1CE0E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		21CEEB9C58ECF36EFDCE3A98471EBCED /* Pods-SLEDemoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SLEDemoTests.release.xcconfig"; sourceTree = "<group>"; };
+		27D55D4DBF20BE9E74505EF17A56709C /* UIImage+Snapshot.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Snapshot.m"; path = "FBSnapshotTestCase/Categories/UIImage+Snapshot.m"; sourceTree = "<group>"; };
+		3030F8D8330E4274C77FDDA3BB37652C /* Pods-SLEDemoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SLEDemoTests.debug.xcconfig"; sourceTree = "<group>"; };
+		303CF0B8702D12DFBEAB369FD422E96C /* Pods-SLEDemo-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SLEDemo-umbrella.h"; sourceTree = "<group>"; };
+		3280BB5E7B57C31D41117A74F76E9DF3 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
+		3481B301798C3D94A90BDD57F19C15EA /* Pods-SLEDemo-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SLEDemo-dummy.m"; sourceTree = "<group>"; };
+		34F503BC90F4BE53B5EFCF624C967D54 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		4B3AA76549F68C9B4C9648F667A10A96 /* Pods-SLEDemo-SLEDemoUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SLEDemo-SLEDemoUITests-dummy.m"; sourceTree = "<group>"; };
+		4B52B5DAB410B67677228EFA2B66A335 /* iOSSnapshotTestCase-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "iOSSnapshotTestCase-dummy.m"; sourceTree = "<group>"; };
+		4DBDF9C429D439E6A051A06DF40CC5B6 /* UIImage+Snapshot.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Snapshot.h"; path = "FBSnapshotTestCase/Categories/UIImage+Snapshot.h"; sourceTree = "<group>"; };
+		4EF1CA612BECBD61EB7DD75CD45A0AB2 /* SLELayoutAlignment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SLELayoutAlignment.h; path = SimpleLayoutEngine/SLELayoutAlignment.h; sourceTree = "<group>"; };
+		50CA90869AFCC0C8883320D79E50783B /* Pods-SLEDemoTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SLEDemoTests-dummy.m"; sourceTree = "<group>"; };
+		5396E53D2A90A3622CE7C341098FC59C /* FBSnapshotTestCase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestCase.h; path = FBSnapshotTestCase/FBSnapshotTestCase.h; sourceTree = "<group>"; };
+		54AA1DB9AC084DE18C870ACBE140D10E /* SimpleLayoutEngine-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SimpleLayoutEngine-prefix.pch"; sourceTree = "<group>"; };
+		5686A932ACCC5FFB597FE6E025F39EDB /* SimpleLayoutEngine-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SimpleLayoutEngine-umbrella.h"; sourceTree = "<group>"; };
+		57221B54D014471C3D3E1925EFC917C8 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		5B7D2F3B01D60301CC13C09B4C30DECC /* FBSnapshotTestCasePlatform.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestCasePlatform.h; path = FBSnapshotTestCase/FBSnapshotTestCasePlatform.h; sourceTree = "<group>"; };
+		5BF6D74F6C5F3916D6ABA081DACB7107 /* Pods-SLEDemo-SLEDemoUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SLEDemo-SLEDemoUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		5C281721550E9FB1460D9BAFFA9EC9E9 /* Pods-SLEDemo-SLEDemoUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SLEDemo-SLEDemoUITests-frameworks.sh"; sourceTree = "<group>"; };
+		6160229C3DB1CB1D093FAD9AAFE7A441 /* iOSSnapshotTestCase.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = iOSSnapshotTestCase.release.xcconfig; sourceTree = "<group>"; };
+		618BE5F1BA270DA61AD09C53F8291706 /* iOSSnapshotTestCase-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "iOSSnapshotTestCase-Info.plist"; sourceTree = "<group>"; };
+		662F7BC4286C8E1674434B8BA72AC51B /* FBSnapshotTestController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestController.h; path = FBSnapshotTestCase/FBSnapshotTestController.h; sourceTree = "<group>"; };
+		67B2F2D54C07619554E2AD17EC4DF6B6 /* Pods-SLEDemo-SLEDemoUITests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-SLEDemo-SLEDemoUITests"; path = Pods_SLEDemo_SLEDemoUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		69DFD9DABBF73602254345689BA40FCF /* SLEViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SLEViewController.m; path = SimpleLayoutEngine/SLEViewController.m; sourceTree = "<group>"; };
+		7122C904D69B61BAE69699615901298C /* Pods-SLEDemoTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SLEDemoTests-umbrella.h"; sourceTree = "<group>"; };
+		74C336CFA558E6D7C84DCEEA825507BB /* SLELayoutItem.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SLELayoutItem.m; path = SimpleLayoutEngine/SLELayoutItem.m; sourceTree = "<group>"; };
+		7BB3E925D33D6414934485FDE4D9A960 /* SLEViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SLEViewController.h; path = SimpleLayoutEngine/SLEViewController.h; sourceTree = "<group>"; };
+		82044E9A1F43905588AAA04858183A6E /* Pods-SLEDemoTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SLEDemoTests-frameworks.sh"; sourceTree = "<group>"; };
+		85825C0B52976AA6CE8831332072D76E /* SimpleLayoutEngine-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SimpleLayoutEngine-dummy.m"; sourceTree = "<group>"; };
+		869D24369375334A3EE9AAB3D967D4C1 /* SimpleLayoutEngine.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SimpleLayoutEngine.modulemap; sourceTree = "<group>"; };
+		897E0F02EAD8A601347C257B34D4127F /* UIImage+Compare.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Compare.h"; path = "FBSnapshotTestCase/Categories/UIImage+Compare.h"; sourceTree = "<group>"; };
+		8D582986911E1C2AE11BE9A94D6CE0F3 /* SimpleLayoutEngine.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SimpleLayoutEngine.release.xcconfig; sourceTree = "<group>"; };
+		91A97F8F3454A51CC46B3DC35808826F /* FBSnapshotTestCase.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestCase.m; path = FBSnapshotTestCase/FBSnapshotTestCase.m; sourceTree = "<group>"; };
+		91DEDF6070C73E399BB205846346F066 /* iOSSnapshotTestCase-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "iOSSnapshotTestCase-prefix.pch"; sourceTree = "<group>"; };
+		936874EB43E7D2CFF8FA511F35BD7D56 /* Pods-SLEDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SLEDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		9560221D4BD362996A2C49C0ED4F91A6 /* SwiftSupport.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftSupport.swift; path = FBSnapshotTestCase/SwiftSupport.swift; sourceTree = "<group>"; };
+		97965C03B3461D4FC706E60BA0DECFE2 /* Pods-SLEDemo-SLEDemoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SLEDemo-SLEDemoUITests.release.xcconfig"; sourceTree = "<group>"; };
+		9861158B7BC4787F546E99260A813F76 /* Pods-SLEDemo */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-SLEDemo"; path = Pods_SLEDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		98A77677AF6BE9E9962BC22C048B47BA /* SimpleLayoutEngine-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SimpleLayoutEngine-Info.plist"; sourceTree = "<group>"; };
+		99896D3298B342118AF5982B6182F654 /* SLELayout.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SLELayout.m; path = SimpleLayoutEngine/SLELayout.m; sourceTree = "<group>"; };
+		9C4F6A9ECA07E3A9674F95C1738FC656 /* iOSSnapshotTestCase-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "iOSSnapshotTestCase-umbrella.h"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9E3AFC58D7690BACB16C3A0FB9E461AB /* Pods-SLEDemo-SLEDemoUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SLEDemo-SLEDemoUITests.modulemap"; sourceTree = "<group>"; };
+		9FB243B9446554C55BAC38934001D745 /* Pods-SLEDemo-SLEDemoUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SLEDemo-SLEDemoUITests-umbrella.h"; sourceTree = "<group>"; };
+		A0600580330166CD0D9EBB89168BB8F7 /* SLELayoutItem+Internal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "SLELayoutItem+Internal.h"; path = "SimpleLayoutEngine/SLELayoutItem+Internal.h"; sourceTree = "<group>"; };
+		A2ED9087E497160598B9B069C1DAC0AC /* Pods-SLEDemoTests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-SLEDemoTests"; path = Pods_SLEDemoTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AE804B7FBC761226165A460C6DCCBC22 /* Pods-SLEDemo-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SLEDemo-acknowledgements.markdown"; sourceTree = "<group>"; };
+		B0F076B793FEFF93704FDA88B6DE3F3D /* SimpleLayoutEngine.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SimpleLayoutEngine.debug.xcconfig; sourceTree = "<group>"; };
+		B4BD3A64ED5888443712FA0C56490352 /* Pods-SLEDemo-SLEDemoUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SLEDemo-SLEDemoUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		B805C9188BF7A19A46DFA5F1CDB5F5C9 /* SimpleLayoutEngine.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = SimpleLayoutEngine.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		B844C07AA43F021B02EC8E5601DADF68 /* UIImage+Compare.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Compare.m"; path = "FBSnapshotTestCase/Categories/UIImage+Compare.m"; sourceTree = "<group>"; };
+		B91B00F8BE943329D633234BD67AE0AC /* iOSSnapshotTestCase */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = iOSSnapshotTestCase; path = FBSnapshotTestCase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BEE44E72E3289A85B578CAA0F95F4453 /* UIImage+Diff.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Diff.h"; path = "FBSnapshotTestCase/Categories/UIImage+Diff.h"; sourceTree = "<group>"; };
+		C6A157559E22A6AE45AC051FA8490B86 /* SimpleLayoutEngine.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SimpleLayoutEngine.h; path = SimpleLayoutEngine/SimpleLayoutEngine.h; sourceTree = "<group>"; };
+		C702BFFA9268B594828578C4EAF96B57 /* Pods-SLEDemo-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SLEDemo-acknowledgements.plist"; sourceTree = "<group>"; };
+		CABF68C690F44F77CF4AE1CD3992569C /* SimpleLayoutEngine.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SimpleLayoutEngine.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D7563F5A7025146723E84BDE2865E531 /* SLELayout.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SLELayout.h; path = SimpleLayoutEngine/SLELayout.h; sourceTree = "<group>"; };
+		DA37BD4477957C09B3BD431E9927C092 /* FBSnapshotTestController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestController.m; path = FBSnapshotTestCase/FBSnapshotTestController.m; sourceTree = "<group>"; };
+		E341BFA7D2EE6C60AF6944D91BAA7852 /* Pods-SLEDemo-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SLEDemo-Info.plist"; sourceTree = "<group>"; };
+		E658F388F01C72599CA75537950B6095 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		E668D373673DF1F0360A5388F354A916 /* Pods-SLEDemo-SLEDemoUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SLEDemo-SLEDemoUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		E69559F63EEBF29D7AE9224B84F2889C /* Pods-SLEDemoTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SLEDemoTests-Info.plist"; sourceTree = "<group>"; };
+		EACF53855BB24F886ACF4C1774842057 /* Pods-SLEDemo-SLEDemoUITests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SLEDemo-SLEDemoUITests-Info.plist"; sourceTree = "<group>"; };
+		F41CDFDA6E070EC1D2B84356A2B1B8FB /* Pods-SLEDemoTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SLEDemoTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		F6319031F87B25EC953C24CA1402251D /* SLELayoutDirection.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SLELayoutDirection.h; path = SimpleLayoutEngine/SLELayoutDirection.h; sourceTree = "<group>"; };
+		FEB38BFB97ED30F4264BA9D3D3A9852B /* Pods-SLEDemoTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SLEDemoTests.modulemap"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		90109DB46464DC98CD3AE1CA385CF20E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1B0B0A75D1F745C680DC61B2372A5D99 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		98FA6BF93E8BF44CF6BD89CAEBC972B9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE64F699A45C33911EE8CF5BDC87F0FE /* Foundation.framework in Frameworks */,
+				0186F8FD3504ADA49FA504D1010B3FE4 /* QuartzCore.framework in Frameworks */,
+				6DC239C5F98BEC072A48AF2F7C7EF5B2 /* UIKit.framework in Frameworks */,
+				1666AE96F4FF0BE6D6854373EA9E4545 /* XCTest.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B75E82667C72362ED3CF0409CFDA2667 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				515DF0C30B71C5064B85B28735F0ADAF /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD9702CF1A552B7E18090781D0252830 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B57D82E4A13ACA0E8D4E2CA2822D9AEA /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC66ADAA79518866C80C7836B0120731 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B9B974A628D21498E09A84316A787C6F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		179C2820FD6E207CCA695A99342C3999 /* SwiftSupport */ = {
+			isa = PBXGroup;
+			children = (
+				9560221D4BD362996A2C49C0ED4F91A6 /* SwiftSupport.swift */,
+			);
+			name = SwiftSupport;
+			sourceTree = "<group>";
+		};
+		1DFCA6316A6071CA7AB84D719B5E99A4 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				12DA69C55BBA2E9DF4560AD31D2A0058 /* iOSSnapshotTestCase.modulemap */,
+				4B52B5DAB410B67677228EFA2B66A335 /* iOSSnapshotTestCase-dummy.m */,
+				618BE5F1BA270DA61AD09C53F8291706 /* iOSSnapshotTestCase-Info.plist */,
+				91DEDF6070C73E399BB205846346F066 /* iOSSnapshotTestCase-prefix.pch */,
+				9C4F6A9ECA07E3A9674F95C1738FC656 /* iOSSnapshotTestCase-umbrella.h */,
+				014112D6DE13FFD29E9B8A1B42D83C66 /* iOSSnapshotTestCase.debug.xcconfig */,
+				6160229C3DB1CB1D093FAD9AAFE7A441 /* iOSSnapshotTestCase.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/iOSSnapshotTestCase";
+			sourceTree = "<group>";
+		};
+		2045D8C61BEAB65617F56134A72F142C /* Pods-SLEDemo-SLEDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				9E3AFC58D7690BACB16C3A0FB9E461AB /* Pods-SLEDemo-SLEDemoUITests.modulemap */,
+				E668D373673DF1F0360A5388F354A916 /* Pods-SLEDemo-SLEDemoUITests-acknowledgements.markdown */,
+				5BF6D74F6C5F3916D6ABA081DACB7107 /* Pods-SLEDemo-SLEDemoUITests-acknowledgements.plist */,
+				4B3AA76549F68C9B4C9648F667A10A96 /* Pods-SLEDemo-SLEDemoUITests-dummy.m */,
+				5C281721550E9FB1460D9BAFFA9EC9E9 /* Pods-SLEDemo-SLEDemoUITests-frameworks.sh */,
+				EACF53855BB24F886ACF4C1774842057 /* Pods-SLEDemo-SLEDemoUITests-Info.plist */,
+				9FB243B9446554C55BAC38934001D745 /* Pods-SLEDemo-SLEDemoUITests-umbrella.h */,
+				B4BD3A64ED5888443712FA0C56490352 /* Pods-SLEDemo-SLEDemoUITests.debug.xcconfig */,
+				97965C03B3461D4FC706E60BA0DECFE2 /* Pods-SLEDemo-SLEDemoUITests.release.xcconfig */,
+			);
+			name = "Pods-SLEDemo-SLEDemoUITests";
+			path = "Target Support Files/Pods-SLEDemo-SLEDemoUITests";
+			sourceTree = "<group>";
+		};
+		3969ABE5B55CDC3F6F4D7B9D65187E78 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CAF5D96D441D4AAF6CDD7CDA1FC2B683 /* SimpleLayoutEngine */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		3DB18C0CA374BD78B19F19E890B4F6A4 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				34F503BC90F4BE53B5EFCF624C967D54 /* LICENSE */,
+				1D9D6500CE6DDBB8ACE0996C243E76E2 /* README.md */,
+				B805C9188BF7A19A46DFA5F1CDB5F5C9 /* SimpleLayoutEngine.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		435489B56C63D57B6F480411D2ECC160 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BF25B233587B675311ED164CECB1266A /* iOSSnapshotTestCase */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		76EC884AA64F464249C3CC54A268BEE6 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				800AF851EDF900EA9B7A2C6689262272 /* Pods-SLEDemo */,
+				2045D8C61BEAB65617F56134A72F142C /* Pods-SLEDemo-SLEDemoUITests */,
+				FE13ACF878901235F2A4F71E833DABFC /* Pods-SLEDemoTests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		800AF851EDF900EA9B7A2C6689262272 /* Pods-SLEDemo */ = {
+			isa = PBXGroup;
+			children = (
+				037BF1842DB14CE52E35B8CE96FB3055 /* Pods-SLEDemo.modulemap */,
+				AE804B7FBC761226165A460C6DCCBC22 /* Pods-SLEDemo-acknowledgements.markdown */,
+				C702BFFA9268B594828578C4EAF96B57 /* Pods-SLEDemo-acknowledgements.plist */,
+				3481B301798C3D94A90BDD57F19C15EA /* Pods-SLEDemo-dummy.m */,
+				14E15728D513B9CEF9A7799C276F659D /* Pods-SLEDemo-frameworks.sh */,
+				E341BFA7D2EE6C60AF6944D91BAA7852 /* Pods-SLEDemo-Info.plist */,
+				303CF0B8702D12DFBEAB369FD422E96C /* Pods-SLEDemo-umbrella.h */,
+				936874EB43E7D2CFF8FA511F35BD7D56 /* Pods-SLEDemo.debug.xcconfig */,
+				1084A0F6CB81E136367CF6D82AD93D0A /* Pods-SLEDemo.release.xcconfig */,
+			);
+			name = "Pods-SLEDemo";
+			path = "Target Support Files/Pods-SLEDemo";
+			sourceTree = "<group>";
+		};
+		8A27C981F0AC4E99DD422E8E1DD43D7C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B91B00F8BE943329D633234BD67AE0AC /* iOSSnapshotTestCase */,
+				9861158B7BC4787F546E99260A813F76 /* Pods-SLEDemo */,
+				67B2F2D54C07619554E2AD17EC4DF6B6 /* Pods-SLEDemo-SLEDemoUITests */,
+				A2ED9087E497160598B9B069C1DAC0AC /* Pods-SLEDemoTests */,
+				CABF68C690F44F77CF4AE1CD3992569C /* SimpleLayoutEngine.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8CBC22791C57AE6C66649DD13C530F71 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				869D24369375334A3EE9AAB3D967D4C1 /* SimpleLayoutEngine.modulemap */,
+				85825C0B52976AA6CE8831332072D76E /* SimpleLayoutEngine-dummy.m */,
+				98A77677AF6BE9E9962BC22C048B47BA /* SimpleLayoutEngine-Info.plist */,
+				54AA1DB9AC084DE18C870ACBE140D10E /* SimpleLayoutEngine-prefix.pch */,
+				5686A932ACCC5FFB597FE6E025F39EDB /* SimpleLayoutEngine-umbrella.h */,
+				B0F076B793FEFF93704FDA88B6DE3F3D /* SimpleLayoutEngine.debug.xcconfig */,
+				8D582986911E1C2AE11BE9A94D6CE0F3 /* SimpleLayoutEngine.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Demo/Pods/Target Support Files/SimpleLayoutEngine";
+			sourceTree = "<group>";
+		};
+		BA4F31F07263C99FC76E66D632A59F09 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FB2668559AE577E6E8078C0C291AD417 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BF25B233587B675311ED164CECB1266A /* iOSSnapshotTestCase */ = {
+			isa = PBXGroup;
+			children = (
+				D3172479FACDF71E8D005FBEE04EAB43 /* Core */,
+				1DFCA6316A6071CA7AB84D719B5E99A4 /* Support Files */,
+				179C2820FD6E207CCA695A99342C3999 /* SwiftSupport */,
+			);
+			path = iOSSnapshotTestCase;
+			sourceTree = "<group>";
+		};
+		CAF5D96D441D4AAF6CDD7CDA1FC2B683 /* SimpleLayoutEngine */ = {
+			isa = PBXGroup;
+			children = (
+				C6A157559E22A6AE45AC051FA8490B86 /* SimpleLayoutEngine.h */,
+				D7563F5A7025146723E84BDE2865E531 /* SLELayout.h */,
+				99896D3298B342118AF5982B6182F654 /* SLELayout.m */,
+				4EF1CA612BECBD61EB7DD75CD45A0AB2 /* SLELayoutAlignment.h */,
+				F6319031F87B25EC953C24CA1402251D /* SLELayoutDirection.h */,
+				0C71C19DD241E2665A82F3789BABE479 /* SLELayoutItem.h */,
+				74C336CFA558E6D7C84DCEEA825507BB /* SLELayoutItem.m */,
+				A0600580330166CD0D9EBB89168BB8F7 /* SLELayoutItem+Internal.h */,
+				7BB3E925D33D6414934485FDE4D9A960 /* SLEViewController.h */,
+				69DFD9DABBF73602254345689BA40FCF /* SLEViewController.m */,
+				3DB18C0CA374BD78B19F19E890B4F6A4 /* Pod */,
+				8CBC22791C57AE6C66649DD13C530F71 /* Support Files */,
+			);
+			name = SimpleLayoutEngine;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				3969ABE5B55CDC3F6F4D7B9D65187E78 /* Development Pods */,
+				BA4F31F07263C99FC76E66D632A59F09 /* Frameworks */,
+				435489B56C63D57B6F480411D2ECC160 /* Pods */,
+				8A27C981F0AC4E99DD422E8E1DD43D7C /* Products */,
+				76EC884AA64F464249C3CC54A268BEE6 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D3172479FACDF71E8D005FBEE04EAB43 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				5396E53D2A90A3622CE7C341098FC59C /* FBSnapshotTestCase.h */,
+				91A97F8F3454A51CC46B3DC35808826F /* FBSnapshotTestCase.m */,
+				5B7D2F3B01D60301CC13C09B4C30DECC /* FBSnapshotTestCasePlatform.h */,
+				08FCC9805366EFE1BEE96A16307D991C /* FBSnapshotTestCasePlatform.m */,
+				662F7BC4286C8E1674434B8BA72AC51B /* FBSnapshotTestController.h */,
+				DA37BD4477957C09B3BD431E9927C092 /* FBSnapshotTestController.m */,
+				897E0F02EAD8A601347C257B34D4127F /* UIImage+Compare.h */,
+				B844C07AA43F021B02EC8E5601DADF68 /* UIImage+Compare.m */,
+				BEE44E72E3289A85B578CAA0F95F4453 /* UIImage+Diff.h */,
+				1C26A624043D4751B3FA91E4C944EC43 /* UIImage+Diff.m */,
+				4DBDF9C429D439E6A051A06DF40CC5B6 /* UIImage+Snapshot.h */,
+				27D55D4DBF20BE9E74505EF17A56709C /* UIImage+Snapshot.m */,
+			);
+			name = Core;
+			sourceTree = "<group>";
+		};
+		FB2668559AE577E6E8078C0C291AD417 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				57221B54D014471C3D3E1925EFC917C8 /* Foundation.framework */,
+				3280BB5E7B57C31D41117A74F76E9DF3 /* QuartzCore.framework */,
+				1DA24A38BA9EE106B59E3D4C8DD1CE0E /* UIKit.framework */,
+				E658F388F01C72599CA75537950B6095 /* XCTest.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		FE13ACF878901235F2A4F71E833DABFC /* Pods-SLEDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				FEB38BFB97ED30F4264BA9D3D3A9852B /* Pods-SLEDemoTests.modulemap */,
+				0AD2BE4F83529426A541C30630C7E669 /* Pods-SLEDemoTests-acknowledgements.markdown */,
+				F41CDFDA6E070EC1D2B84356A2B1B8FB /* Pods-SLEDemoTests-acknowledgements.plist */,
+				50CA90869AFCC0C8883320D79E50783B /* Pods-SLEDemoTests-dummy.m */,
+				82044E9A1F43905588AAA04858183A6E /* Pods-SLEDemoTests-frameworks.sh */,
+				E69559F63EEBF29D7AE9224B84F2889C /* Pods-SLEDemoTests-Info.plist */,
+				7122C904D69B61BAE69699615901298C /* Pods-SLEDemoTests-umbrella.h */,
+				3030F8D8330E4274C77FDDA3BB37652C /* Pods-SLEDemoTests.debug.xcconfig */,
+				21CEEB9C58ECF36EFDCE3A98471EBCED /* Pods-SLEDemoTests.release.xcconfig */,
+			);
+			name = "Pods-SLEDemoTests";
+			path = "Target Support Files/Pods-SLEDemoTests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		40500CF5D9BDB3C5F7997583AE41075A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				01B0695B46025E96A710D5F9963A4FEB /* FBSnapshotTestCase.h in Headers */,
+				8891FC3E2DF5C7B97D6F0CC15971A78F /* FBSnapshotTestCasePlatform.h in Headers */,
+				21185F013F2A8FC8CC90A995E4FB4BB8 /* FBSnapshotTestController.h in Headers */,
+				DFE92360AC3E68AD487EDDFD287B7430 /* iOSSnapshotTestCase-umbrella.h in Headers */,
+				D66279829DCA0FC5B4E9D4E04F903EA6 /* UIImage+Compare.h in Headers */,
+				A888BCFF70044D419A9CD54A2C172A37 /* UIImage+Diff.h in Headers */,
+				6EE6A81E7C13E3230D24133CD88345B2 /* UIImage+Snapshot.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		796E21BAD27BE7FB08C1F2BA60464651 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9DBBFC1590D749D4A2268C5F7512DF10 /* Pods-SLEDemoTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9969C6E582E7FAAE2E4D994F4F19E480 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				644B5352D67692A0AB389027F1329357 /* Pods-SLEDemo-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A40514A6D7D9136358A1AFA0779456A0 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E27D4AF1F6CD414E4FBDB7A774808D6B /* SimpleLayoutEngine.h in Headers */,
+				9B184114DDA3A0570BA96CAFB222CB2B /* SimpleLayoutEngine-umbrella.h in Headers */,
+				34E7ED8C6595102EF0FF60D679783154 /* SLELayout.h in Headers */,
+				77398719EA51C9C4CC2BD7EC5960C3B7 /* SLELayoutAlignment.h in Headers */,
+				65B93C0ECE58430A3F6A452FCE72C60F /* SLELayoutDirection.h in Headers */,
+				821FEF7DC7F855123165FC0EBE94112D /* SLELayoutItem.h in Headers */,
+				6CC87DA71D67A509FA9FD3D381F69CA2 /* SLELayoutItem+Internal.h in Headers */,
+				5CEA827BCBBA57A172751FA8C842D0E1 /* SLEViewController.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB47BDC3C3522180522EE1B10B1E0CF0 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1484AD6899A3168F7A6C8B63D7D7DBB7 /* Pods-SLEDemo-SLEDemoUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		0CC4F9A979B3799067CDB18B5A996101 /* Pods-SLEDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA4B41930C7F3FFB53596B0978E1DAD9 /* Build configuration list for PBXNativeTarget "Pods-SLEDemoTests" */;
+			buildPhases = (
+				796E21BAD27BE7FB08C1F2BA60464651 /* Headers */,
+				A38C87C40E4C258F76614B75B8A31E47 /* Sources */,
+				90109DB46464DC98CD3AE1CA385CF20E /* Frameworks */,
+				6A41CDE618EFD1E2AC54B01A642B0CC9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				382A63B63A884F5D02968C74A383018D /* PBXTargetDependency */,
+				30FA4DAE4E30574BFABD483DC78F023F /* PBXTargetDependency */,
+			);
+			name = "Pods-SLEDemoTests";
+			productName = Pods_SLEDemoTests;
+			productReference = A2ED9087E497160598B9B069C1DAC0AC /* Pods-SLEDemoTests */;
+			productType = "com.apple.product-type.framework";
+		};
+		24343EFC2CA462787B413EDE484AB999 /* SimpleLayoutEngine */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6D0E8A4B6F9C7D76776A866925D231DF /* Build configuration list for PBXNativeTarget "SimpleLayoutEngine" */;
+			buildPhases = (
+				A40514A6D7D9136358A1AFA0779456A0 /* Headers */,
+				8097A3AC3781A6D741C658EC8EAD1A54 /* Sources */,
+				FC66ADAA79518866C80C7836B0120731 /* Frameworks */,
+				5774A2DEE6776999B4301449475A3209 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SimpleLayoutEngine;
+			productName = SimpleLayoutEngine;
+			productReference = CABF68C690F44F77CF4AE1CD3992569C /* SimpleLayoutEngine.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		41C4B5580C421A04DF845450F17D58B6 /* Pods-SLEDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C98FFC86DF1646D119737E93E7602020 /* Build configuration list for PBXNativeTarget "Pods-SLEDemo" */;
+			buildPhases = (
+				9969C6E582E7FAAE2E4D994F4F19E480 /* Headers */,
+				2C394727FBAF3C01C9BCA1278DF9D744 /* Sources */,
+				B75E82667C72362ED3CF0409CFDA2667 /* Frameworks */,
+				67CF4CE71064B956271DF886A6E96C69 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B2CE96FF452FDACD9263FE0F9A413390 /* PBXTargetDependency */,
+			);
+			name = "Pods-SLEDemo";
+			productName = Pods_SLEDemo;
+			productReference = 9861158B7BC4787F546E99260A813F76 /* Pods-SLEDemo */;
+			productType = "com.apple.product-type.framework";
+		};
+		76394FA4AF8B347676C92E42AB40DB2B /* Pods-SLEDemo-SLEDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4606DE4A45A98BC04E2EF1EB4E2C2D3A /* Build configuration list for PBXNativeTarget "Pods-SLEDemo-SLEDemoUITests" */;
+			buildPhases = (
+				DB47BDC3C3522180522EE1B10B1E0CF0 /* Headers */,
+				D02F5533B1153C71B9522D6C1E966153 /* Sources */,
+				DD9702CF1A552B7E18090781D0252830 /* Frameworks */,
+				6CE9FCFC34067D18F829937C681B9352 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				694D7A1FA0B6C029FD721C8DC5569DAD /* PBXTargetDependency */,
+			);
+			name = "Pods-SLEDemo-SLEDemoUITests";
+			productName = Pods_SLEDemo_SLEDemoUITests;
+			productReference = 67B2F2D54C07619554E2AD17EC4DF6B6 /* Pods-SLEDemo-SLEDemoUITests */;
+			productType = "com.apple.product-type.framework";
+		};
+		C393038B0BEF088C1B93E6528005862D /* iOSSnapshotTestCase */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D59C5643830589D64C5E1A7388816111 /* Build configuration list for PBXNativeTarget "iOSSnapshotTestCase" */;
+			buildPhases = (
+				40500CF5D9BDB3C5F7997583AE41075A /* Headers */,
+				5F986A16EACB971BDAD45006323334EF /* Sources */,
+				98FA6BF93E8BF44CF6BD89CAEBC972B9 /* Frameworks */,
+				FDE5C3A3EEC191895DEC62C885A34C67 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = iOSSnapshotTestCase;
+			productName = FBSnapshotTestCase;
+			productReference = B91B00F8BE943329D633234BD67AE0AC /* iOSSnapshotTestCase */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1300;
+				LastUpgradeCheck = 1300;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 8A27C981F0AC4E99DD422E8E1DD43D7C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C393038B0BEF088C1B93E6528005862D /* iOSSnapshotTestCase */,
+				41C4B5580C421A04DF845450F17D58B6 /* Pods-SLEDemo */,
+				76394FA4AF8B347676C92E42AB40DB2B /* Pods-SLEDemo-SLEDemoUITests */,
+				0CC4F9A979B3799067CDB18B5A996101 /* Pods-SLEDemoTests */,
+				24343EFC2CA462787B413EDE484AB999 /* SimpleLayoutEngine */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5774A2DEE6776999B4301449475A3209 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		67CF4CE71064B956271DF886A6E96C69 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6A41CDE618EFD1E2AC54B01A642B0CC9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6CE9FCFC34067D18F829937C681B9352 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FDE5C3A3EEC191895DEC62C885A34C67 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2C394727FBAF3C01C9BCA1278DF9D744 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B151F56AB798593BD38C900FB7461706 /* Pods-SLEDemo-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5F986A16EACB971BDAD45006323334EF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD93A25A5EFE29B624935D91E9332C89 /* FBSnapshotTestCase.m in Sources */,
+				EF9F915A72AEDA5A01DF9E101CC32149 /* FBSnapshotTestCasePlatform.m in Sources */,
+				238AD8C0B3ACD51F5F633BBC9D5081BB /* FBSnapshotTestController.m in Sources */,
+				B1F9BF9C6A38711D4ACCB8C3D31DF875 /* iOSSnapshotTestCase-dummy.m in Sources */,
+				D4FE8735B40210528F27625ED237F952 /* SwiftSupport.swift in Sources */,
+				DC904E3036ADBA138F3568F9CE3A5433 /* UIImage+Compare.m in Sources */,
+				C01E9BF07769111A2218E9217773EF1A /* UIImage+Diff.m in Sources */,
+				8E2AA19E5A7CE5CFCD5FB4DBB27A227A /* UIImage+Snapshot.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8097A3AC3781A6D741C658EC8EAD1A54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F2FECDBEADB8B4E609442CCA177FD502 /* SimpleLayoutEngine-dummy.m in Sources */,
+				17EBBB150C646B62FF3FE1C98E0C0759 /* SLELayout.m in Sources */,
+				AF935AA0F1994E6387B6AAC868328EBB /* SLELayoutItem.m in Sources */,
+				6AA48999D92571B6FA6A01127D57E606 /* SLEViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A38C87C40E4C258F76614B75B8A31E47 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E785E52A7D6E2A1537CA53CC7B97CD44 /* Pods-SLEDemoTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D02F5533B1153C71B9522D6C1E966153 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				78193F2C84DE0D9A06AAED020511CF9C /* Pods-SLEDemo-SLEDemoUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		30FA4DAE4E30574BFABD483DC78F023F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = iOSSnapshotTestCase;
+			target = C393038B0BEF088C1B93E6528005862D /* iOSSnapshotTestCase */;
+			targetProxy = 7EA412819BC173AEFF119E851F2ADC6B /* PBXContainerItemProxy */;
+		};
+		382A63B63A884F5D02968C74A383018D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-SLEDemo";
+			target = 41C4B5580C421A04DF845450F17D58B6 /* Pods-SLEDemo */;
+			targetProxy = DA8F55D565E5CAC67B0BD3586CCB6945 /* PBXContainerItemProxy */;
+		};
+		694D7A1FA0B6C029FD721C8DC5569DAD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SimpleLayoutEngine;
+			target = 24343EFC2CA462787B413EDE484AB999 /* SimpleLayoutEngine */;
+			targetProxy = A1319FF6ABA04FA563EF4EC8516CA698 /* PBXContainerItemProxy */;
+		};
+		B2CE96FF452FDACD9263FE0F9A413390 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SimpleLayoutEngine;
+			target = 24343EFC2CA462787B413EDE484AB999 /* SimpleLayoutEngine */;
+			targetProxy = 29B1170E65607CE48D568FF8CA9011BB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		29E6156544AAF0475105D870206A3DE5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1084A0F6CB81E136367CF6D82AD93D0A /* Pods-SLEDemo.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SLEDemo/Pods-SLEDemo-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SLEDemo/Pods-SLEDemo.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		49E0704DDB7FC4DDD402F3EB08460E85 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6160229C3DB1CB1D093FAD9AAFE7A441 /* iOSSnapshotTestCase.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/iOSSnapshotTestCase/iOSSnapshotTestCase-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/iOSSnapshotTestCase/iOSSnapshotTestCase-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/iOSSnapshotTestCase/iOSSnapshotTestCase.modulemap";
+				PRODUCT_MODULE_NAME = FBSnapshotTestCase;
+				PRODUCT_NAME = FBSnapshotTestCase;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.1;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		573710A16308E9E5870C2EF6AC94D13F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3030F8D8330E4274C77FDDA3BB37652C /* Pods-SLEDemoTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SLEDemoTests/Pods-SLEDemoTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SLEDemoTests/Pods-SLEDemoTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		8654F3937308C4CA37FBEB8A8CC99F38 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 936874EB43E7D2CFF8FA511F35BD7D56 /* Pods-SLEDemo.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SLEDemo/Pods-SLEDemo-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SLEDemo/Pods-SLEDemo.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		903A0004D3E6651EFD5D2E16214D101B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		9DCC774C313CFB1056A971108363D820 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B4BD3A64ED5888443712FA0C56490352 /* Pods-SLEDemo-SLEDemoUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SLEDemo-SLEDemoUITests/Pods-SLEDemo-SLEDemoUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SLEDemo-SLEDemoUITests/Pods-SLEDemo-SLEDemoUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B4EFE046ACF8F37157F6E322C7FCFC28 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		BCF5AE1ABBAA2AFDB77A27164688FF25 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 97965C03B3461D4FC706E60BA0DECFE2 /* Pods-SLEDemo-SLEDemoUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SLEDemo-SLEDemoUITests/Pods-SLEDemo-SLEDemoUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SLEDemo-SLEDemoUITests/Pods-SLEDemo-SLEDemoUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		CE011A2AE4EC09E9F44E5B0446F7A9F9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B0F076B793FEFF93704FDA88B6DE3F3D /* SimpleLayoutEngine.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SimpleLayoutEngine/SimpleLayoutEngine-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SimpleLayoutEngine/SimpleLayoutEngine-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/SimpleLayoutEngine/SimpleLayoutEngine.modulemap";
+				PRODUCT_MODULE_NAME = SimpleLayoutEngine;
+				PRODUCT_NAME = SimpleLayoutEngine;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		D83572C276A746299D0918CFEE6DA0FB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 21CEEB9C58ECF36EFDCE3A98471EBCED /* Pods-SLEDemoTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SLEDemoTests/Pods-SLEDemoTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SLEDemoTests/Pods-SLEDemoTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		F0CF5B3BAA1160BD2BD643E8A190B772 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 014112D6DE13FFD29E9B8A1B42D83C66 /* iOSSnapshotTestCase.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/iOSSnapshotTestCase/iOSSnapshotTestCase-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/iOSSnapshotTestCase/iOSSnapshotTestCase-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/iOSSnapshotTestCase/iOSSnapshotTestCase.modulemap";
+				PRODUCT_MODULE_NAME = FBSnapshotTestCase;
+				PRODUCT_NAME = FBSnapshotTestCase;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.1;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		F4F84541EFD4E1C00DD24EEB2FAAA674 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8D582986911E1C2AE11BE9A94D6CE0F3 /* SimpleLayoutEngine.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SimpleLayoutEngine/SimpleLayoutEngine-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SimpleLayoutEngine/SimpleLayoutEngine-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/SimpleLayoutEngine/SimpleLayoutEngine.modulemap";
+				PRODUCT_MODULE_NAME = SimpleLayoutEngine;
+				PRODUCT_NAME = SimpleLayoutEngine;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4606DE4A45A98BC04E2EF1EB4E2C2D3A /* Build configuration list for PBXNativeTarget "Pods-SLEDemo-SLEDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9DCC774C313CFB1056A971108363D820 /* Debug */,
+				BCF5AE1ABBAA2AFDB77A27164688FF25 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B4EFE046ACF8F37157F6E322C7FCFC28 /* Debug */,
+				903A0004D3E6651EFD5D2E16214D101B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6D0E8A4B6F9C7D76776A866925D231DF /* Build configuration list for PBXNativeTarget "SimpleLayoutEngine" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE011A2AE4EC09E9F44E5B0446F7A9F9 /* Debug */,
+				F4F84541EFD4E1C00DD24EEB2FAAA674 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C98FFC86DF1646D119737E93E7602020 /* Build configuration list for PBXNativeTarget "Pods-SLEDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8654F3937308C4CA37FBEB8A8CC99F38 /* Debug */,
+				29E6156544AAF0475105D870206A3DE5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D59C5643830589D64C5E1A7388816111 /* Build configuration list for PBXNativeTarget "iOSSnapshotTestCase" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F0CF5B3BAA1160BD2BD643E8A190B772 /* Debug */,
+				49E0704DDB7FC4DDD402F3EB08460E85 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FA4B41930C7F3FFB53596B0978E1DAD9 /* Build configuration list for PBXNativeTarget "Pods-SLEDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				573710A16308E9E5870C2EF6AC94D13F /* Debug */,
+				D83572C276A746299D0918CFEE6DA0FB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

@@ -1,0 +1,772 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7944395D2933C9AF0066EB81 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7944395C2933C9AF0066EB81 /* AppDelegate.m */; };
+		794439602933C9AF0066EB81 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7944395F2933C9AF0066EB81 /* SceneDelegate.m */; };
+		794439632933C9AF0066EB81 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 794439622933C9AF0066EB81 /* ViewController.m */; };
+		794439662933C9AF0066EB81 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 794439642933C9AF0066EB81 /* Main.storyboard */; };
+		794439682933C9B00066EB81 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 794439672933C9B00066EB81 /* Assets.xcassets */; };
+		7944396B2933C9B00066EB81 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 794439692933C9B00066EB81 /* LaunchScreen.storyboard */; };
+		7944396E2933C9B00066EB81 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7944396D2933C9B00066EB81 /* main.m */; };
+		794439782933C9B00066EB81 /* SLEDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 794439772933C9B00066EB81 /* SLEDemoTests.m */; };
+		794439822933C9B00066EB81 /* SLEDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 794439812933C9B00066EB81 /* SLEDemoUITests.m */; };
+		794439842933C9B00066EB81 /* SLEDemoUITestsLaunchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 794439832933C9B00066EB81 /* SLEDemoUITestsLaunchTests.m */; };
+		794439912933CC7F0066EB81 /* SimpleLayoutEngineTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 794439902933CC7F0066EB81 /* SimpleLayoutEngineTests.m */; };
+		827B8C2631B86C63F781FB23 /* Pods_SLEDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E4EF6DE60A1723CFAED838D4 /* Pods_SLEDemo.framework */; };
+		C04FC3420E9301CC8C0A8D73 /* Pods_SLEDemoTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 10112140F409E888A9D7EF43 /* Pods_SLEDemoTests.framework */; };
+		DF0510C421D57F3401A3FEB9 /* Pods_SLEDemo_SLEDemoUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E713BC95BE07F540066B8146 /* Pods_SLEDemo_SLEDemoUITests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		794439742933C9B00066EB81 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 794439502933C9AF0066EB81 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 794439572933C9AF0066EB81;
+			remoteInfo = SLEDemo;
+		};
+		7944397E2933C9B00066EB81 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 794439502933C9AF0066EB81 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 794439572933C9AF0066EB81;
+			remoteInfo = SLEDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		10112140F409E888A9D7EF43 /* Pods_SLEDemoTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SLEDemoTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		794439582933C9AF0066EB81 /* SLEDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SLEDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7944395B2933C9AF0066EB81 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		7944395C2933C9AF0066EB81 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		7944395E2933C9AF0066EB81 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		7944395F2933C9AF0066EB81 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		794439612933C9AF0066EB81 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		794439622933C9AF0066EB81 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		794439652933C9AF0066EB81 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		794439672933C9B00066EB81 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7944396A2933C9B00066EB81 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7944396C2933C9B00066EB81 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7944396D2933C9B00066EB81 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		794439732933C9B00066EB81 /* SLEDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SLEDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		794439772933C9B00066EB81 /* SLEDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SLEDemoTests.m; sourceTree = "<group>"; };
+		7944397D2933C9B00066EB81 /* SLEDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SLEDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		794439812933C9B00066EB81 /* SLEDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SLEDemoUITests.m; sourceTree = "<group>"; };
+		794439832933C9B00066EB81 /* SLEDemoUITestsLaunchTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SLEDemoUITestsLaunchTests.m; sourceTree = "<group>"; };
+		794439902933CC7F0066EB81 /* SimpleLayoutEngineTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SimpleLayoutEngineTests.m; sourceTree = "<group>"; };
+		9C9C000DCD75AE5E00AEBA2A /* Pods-SLEDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SLEDemo.debug.xcconfig"; path = "Target Support Files/Pods-SLEDemo/Pods-SLEDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		A63F4110B53D1FD027407797 /* Pods-SLEDemoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SLEDemoTests.debug.xcconfig"; path = "Target Support Files/Pods-SLEDemoTests/Pods-SLEDemoTests.debug.xcconfig"; sourceTree = "<group>"; };
+		B1DFA719B4FE1AD1277971C1 /* Pods-SLEDemo-SLEDemoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SLEDemo-SLEDemoUITests.release.xcconfig"; path = "Target Support Files/Pods-SLEDemo-SLEDemoUITests/Pods-SLEDemo-SLEDemoUITests.release.xcconfig"; sourceTree = "<group>"; };
+		B629707B4A6131EEC316A31A /* Pods-SLEDemo-SLEDemoUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SLEDemo-SLEDemoUITests.debug.xcconfig"; path = "Target Support Files/Pods-SLEDemo-SLEDemoUITests/Pods-SLEDemo-SLEDemoUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		CA057D90B2C4C3990B596B4B /* Pods-SLEDemoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SLEDemoTests.release.xcconfig"; path = "Target Support Files/Pods-SLEDemoTests/Pods-SLEDemoTests.release.xcconfig"; sourceTree = "<group>"; };
+		E4EF6DE60A1723CFAED838D4 /* Pods_SLEDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SLEDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E713BC95BE07F540066B8146 /* Pods_SLEDemo_SLEDemoUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SLEDemo_SLEDemoUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F5940B4F23804886EAAE389F /* Pods-SLEDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SLEDemo.release.xcconfig"; path = "Target Support Files/Pods-SLEDemo/Pods-SLEDemo.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		794439552933C9AF0066EB81 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				827B8C2631B86C63F781FB23 /* Pods_SLEDemo.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		794439702933C9B00066EB81 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C04FC3420E9301CC8C0A8D73 /* Pods_SLEDemoTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7944397A2933C9B00066EB81 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF0510C421D57F3401A3FEB9 /* Pods_SLEDemo_SLEDemoUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5D425EA8B92166D6EEC77C27 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9C9C000DCD75AE5E00AEBA2A /* Pods-SLEDemo.debug.xcconfig */,
+				F5940B4F23804886EAAE389F /* Pods-SLEDemo.release.xcconfig */,
+				B629707B4A6131EEC316A31A /* Pods-SLEDemo-SLEDemoUITests.debug.xcconfig */,
+				B1DFA719B4FE1AD1277971C1 /* Pods-SLEDemo-SLEDemoUITests.release.xcconfig */,
+				A63F4110B53D1FD027407797 /* Pods-SLEDemoTests.debug.xcconfig */,
+				CA057D90B2C4C3990B596B4B /* Pods-SLEDemoTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		7944394F2933C9AF0066EB81 = {
+			isa = PBXGroup;
+			children = (
+				7944395A2933C9AF0066EB81 /* SLEDemo */,
+				794439762933C9B00066EB81 /* SLEDemoTests */,
+				794439802933C9B00066EB81 /* SLEDemoUITests */,
+				794439592933C9AF0066EB81 /* Products */,
+				5D425EA8B92166D6EEC77C27 /* Pods */,
+				FE241F10D7F40E84548FC30D /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		794439592933C9AF0066EB81 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				794439582933C9AF0066EB81 /* SLEDemo.app */,
+				794439732933C9B00066EB81 /* SLEDemoTests.xctest */,
+				7944397D2933C9B00066EB81 /* SLEDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7944395A2933C9AF0066EB81 /* SLEDemo */ = {
+			isa = PBXGroup;
+			children = (
+				7944395B2933C9AF0066EB81 /* AppDelegate.h */,
+				7944395C2933C9AF0066EB81 /* AppDelegate.m */,
+				7944395E2933C9AF0066EB81 /* SceneDelegate.h */,
+				7944395F2933C9AF0066EB81 /* SceneDelegate.m */,
+				794439612933C9AF0066EB81 /* ViewController.h */,
+				794439622933C9AF0066EB81 /* ViewController.m */,
+				794439642933C9AF0066EB81 /* Main.storyboard */,
+				794439672933C9B00066EB81 /* Assets.xcassets */,
+				794439692933C9B00066EB81 /* LaunchScreen.storyboard */,
+				7944396C2933C9B00066EB81 /* Info.plist */,
+				7944396D2933C9B00066EB81 /* main.m */,
+			);
+			path = SLEDemo;
+			sourceTree = "<group>";
+		};
+		794439762933C9B00066EB81 /* SLEDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				794439902933CC7F0066EB81 /* SimpleLayoutEngineTests.m */,
+				794439772933C9B00066EB81 /* SLEDemoTests.m */,
+			);
+			path = SLEDemoTests;
+			sourceTree = "<group>";
+		};
+		794439802933C9B00066EB81 /* SLEDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				794439812933C9B00066EB81 /* SLEDemoUITests.m */,
+				794439832933C9B00066EB81 /* SLEDemoUITestsLaunchTests.m */,
+			);
+			path = SLEDemoUITests;
+			sourceTree = "<group>";
+		};
+		FE241F10D7F40E84548FC30D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E4EF6DE60A1723CFAED838D4 /* Pods_SLEDemo.framework */,
+				E713BC95BE07F540066B8146 /* Pods_SLEDemo_SLEDemoUITests.framework */,
+				10112140F409E888A9D7EF43 /* Pods_SLEDemoTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		794439572933C9AF0066EB81 /* SLEDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 794439872933C9B00066EB81 /* Build configuration list for PBXNativeTarget "SLEDemo" */;
+			buildPhases = (
+				52749C258D8F4FBBDF2DE05A /* [CP] Check Pods Manifest.lock */,
+				794439542933C9AF0066EB81 /* Sources */,
+				794439552933C9AF0066EB81 /* Frameworks */,
+				794439562933C9AF0066EB81 /* Resources */,
+				011CF36AED560EDBA0374541 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SLEDemo;
+			productName = SLEDemo;
+			productReference = 794439582933C9AF0066EB81 /* SLEDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		794439722933C9B00066EB81 /* SLEDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7944398A2933C9B00066EB81 /* Build configuration list for PBXNativeTarget "SLEDemoTests" */;
+			buildPhases = (
+				5B5B58546565DC94179DE5E9 /* [CP] Check Pods Manifest.lock */,
+				7944396F2933C9B00066EB81 /* Sources */,
+				794439702933C9B00066EB81 /* Frameworks */,
+				794439712933C9B00066EB81 /* Resources */,
+				36DAAAF7BB6404D60A434DE4 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				794439752933C9B00066EB81 /* PBXTargetDependency */,
+			);
+			name = SLEDemoTests;
+			productName = SLEDemoTests;
+			productReference = 794439732933C9B00066EB81 /* SLEDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		7944397C2933C9B00066EB81 /* SLEDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7944398D2933C9B00066EB81 /* Build configuration list for PBXNativeTarget "SLEDemoUITests" */;
+			buildPhases = (
+				5232937F322ECD714BAB53CB /* [CP] Check Pods Manifest.lock */,
+				794439792933C9B00066EB81 /* Sources */,
+				7944397A2933C9B00066EB81 /* Frameworks */,
+				7944397B2933C9B00066EB81 /* Resources */,
+				FE2333378BC6DB3390F45EDD /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7944397F2933C9B00066EB81 /* PBXTargetDependency */,
+			);
+			name = SLEDemoUITests;
+			productName = SLEDemoUITests;
+			productReference = 7944397D2933C9B00066EB81 /* SLEDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		794439502933C9AF0066EB81 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1400;
+				TargetAttributes = {
+					794439572933C9AF0066EB81 = {
+						CreatedOnToolsVersion = 14.0.1;
+					};
+					794439722933C9B00066EB81 = {
+						CreatedOnToolsVersion = 14.0.1;
+						TestTargetID = 794439572933C9AF0066EB81;
+					};
+					7944397C2933C9B00066EB81 = {
+						CreatedOnToolsVersion = 14.0.1;
+						TestTargetID = 794439572933C9AF0066EB81;
+					};
+				};
+			};
+			buildConfigurationList = 794439532933C9AF0066EB81 /* Build configuration list for PBXProject "SLEDemo" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7944394F2933C9AF0066EB81;
+			productRefGroup = 794439592933C9AF0066EB81 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				794439572933C9AF0066EB81 /* SLEDemo */,
+				794439722933C9B00066EB81 /* SLEDemoTests */,
+				7944397C2933C9B00066EB81 /* SLEDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		794439562933C9AF0066EB81 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7944396B2933C9B00066EB81 /* LaunchScreen.storyboard in Resources */,
+				794439682933C9B00066EB81 /* Assets.xcassets in Resources */,
+				794439662933C9AF0066EB81 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		794439712933C9B00066EB81 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7944397B2933C9B00066EB81 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		011CF36AED560EDBA0374541 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SLEDemo/Pods-SLEDemo-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SLEDemo/Pods-SLEDemo-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SLEDemo/Pods-SLEDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		36DAAAF7BB6404D60A434DE4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SLEDemoTests/Pods-SLEDemoTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SLEDemoTests/Pods-SLEDemoTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SLEDemoTests/Pods-SLEDemoTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5232937F322ECD714BAB53CB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SLEDemo-SLEDemoUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		52749C258D8F4FBBDF2DE05A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SLEDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5B5B58546565DC94179DE5E9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SLEDemoTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FE2333378BC6DB3390F45EDD /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SLEDemo-SLEDemoUITests/Pods-SLEDemo-SLEDemoUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SLEDemo-SLEDemoUITests/Pods-SLEDemo-SLEDemoUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SLEDemo-SLEDemoUITests/Pods-SLEDemo-SLEDemoUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		794439542933C9AF0066EB81 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				794439632933C9AF0066EB81 /* ViewController.m in Sources */,
+				7944395D2933C9AF0066EB81 /* AppDelegate.m in Sources */,
+				7944396E2933C9B00066EB81 /* main.m in Sources */,
+				794439602933C9AF0066EB81 /* SceneDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7944396F2933C9B00066EB81 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				794439782933C9B00066EB81 /* SLEDemoTests.m in Sources */,
+				794439912933CC7F0066EB81 /* SimpleLayoutEngineTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		794439792933C9B00066EB81 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				794439842933C9B00066EB81 /* SLEDemoUITestsLaunchTests.m in Sources */,
+				794439822933C9B00066EB81 /* SLEDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		794439752933C9B00066EB81 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 794439572933C9AF0066EB81 /* SLEDemo */;
+			targetProxy = 794439742933C9B00066EB81 /* PBXContainerItemProxy */;
+		};
+		7944397F2933C9B00066EB81 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 794439572933C9AF0066EB81 /* SLEDemo */;
+			targetProxy = 7944397E2933C9B00066EB81 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		794439642933C9AF0066EB81 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				794439652933C9AF0066EB81 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		794439692933C9B00066EB81 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7944396A2933C9B00066EB81 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		794439852933C9B00066EB81 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		794439862933C9B00066EB81 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		794439882933C9B00066EB81 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9C9C000DCD75AE5E00AEBA2A /* Pods-SLEDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SLEDemo/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.whackylabs.demo.SLEDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		794439892933C9B00066EB81 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F5940B4F23804886EAAE389F /* Pods-SLEDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SLEDemo/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.whackylabs.demo.SLEDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		7944398B2933C9B00066EB81 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A63F4110B53D1FD027407797 /* Pods-SLEDemoTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.whackylabs.demo.SLEDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SLEDemo.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SLEDemo";
+			};
+			name = Debug;
+		};
+		7944398C2933C9B00066EB81 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CA057D90B2C4C3990B596B4B /* Pods-SLEDemoTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.whackylabs.demo.SLEDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SLEDemo.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SLEDemo";
+			};
+			name = Release;
+		};
+		7944398E2933C9B00066EB81 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B629707B4A6131EEC316A31A /* Pods-SLEDemo-SLEDemoUITests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.whackylabs.demo.SLEDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SLEDemo;
+			};
+			name = Debug;
+		};
+		7944398F2933C9B00066EB81 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B1DFA719B4FE1AD1277971C1 /* Pods-SLEDemo-SLEDemoUITests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.whackylabs.demo.SLEDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SLEDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		794439532933C9AF0066EB81 /* Build configuration list for PBXProject "SLEDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				794439852933C9B00066EB81 /* Debug */,
+				794439862933C9B00066EB81 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		794439872933C9B00066EB81 /* Build configuration list for PBXNativeTarget "SLEDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				794439882933C9B00066EB81 /* Debug */,
+				794439892933C9B00066EB81 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7944398A2933C9B00066EB81 /* Build configuration list for PBXNativeTarget "SLEDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7944398B2933C9B00066EB81 /* Debug */,
+				7944398C2933C9B00066EB81 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7944398D2933C9B00066EB81 /* Build configuration list for PBXNativeTarget "SLEDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7944398E2933C9B00066EB81 /* Debug */,
+				7944398F2933C9B00066EB81 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 794439502933C9AF0066EB81 /* Project object */;
+}
